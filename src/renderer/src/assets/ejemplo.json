@@ -1,0 +1,27 @@
+{
+    "Nombre": "abccc",
+    "total-caracteres": 3,
+    "total-estados": 4,
+    "estado-inicio": "q0",
+    "estados-finales": ["q2"],
+    "q0":{
+        "a": "q1",
+        "b": "q3",
+        "c": "q3"
+    },
+    "q1":{
+        "a": "q3",
+        "b": "q2",
+        "c": "q3"
+    },
+    "q2":{
+        "a": "q3",
+        "b": "q3",
+        "c": "q2"
+    },
+    "q3":{
+        "a": "q3",
+        "b": "q3",
+        "c": "q3"
+    }
+}
